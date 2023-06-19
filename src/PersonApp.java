@@ -5,13 +5,13 @@ public class PersonApp {
     person1.name = "Vincent";
     person1.address = "Pontianak";
 
-    Person person2 = new Person();
+    Person person2 = new Person("Windah");
     person2.name = "bambang";
     person2.address = "kakok";
     person2.sayHello("atok");
 
     Person person3;
-    person3 = new Person();
+    person3 = new Person("Rucci", "Cirebon");
 
     System.out.println(person1.name);
     System.out.println(person1.address);
