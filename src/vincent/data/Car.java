@@ -1,6 +1,6 @@
 package vincent.data;
 
-public interface Car {
+public interface Car extends HashBrand, IsMaintenance {
 
   void drive();
 
